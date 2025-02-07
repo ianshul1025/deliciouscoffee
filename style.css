@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+#header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1px;
+}
+
+#nav {
+  background-color: rgba(255, 255, 255, 0);
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  word-spacing: 30px;
+  border: 2px solid lightgray;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  background-color: rgba(255, 255, 255, 0);
+  color: #333;
+  padding: 20px;
+  width: 250px;
+  height: 100%;
+  font-weight: bolder;
+}
+
+.images {
+  display: flex;
+  gap: 10px;
+}
+
+.images img {
+  flex: 1;
+  max-width: 30%;
+  height: 550px;
+  object-fit: cover;
+}
+
+.options {
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(128, 128, 128);
+  padding: 20px 0px;
+  width: 250px;
+  height: 100%;
+  font-weight: lighter;
+}
+
+.option-a,
+.option-b,
+.option-c,
+option-d {
+  border-bottom: 2px dashed lightgray;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  overflow: auto; /* Ensure content is scrollable if it overflows */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+}
